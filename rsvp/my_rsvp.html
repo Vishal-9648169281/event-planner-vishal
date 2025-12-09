@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h2>My RSVPs</h2>
+<table class="table table-striped">
+    <tr>
+        <th>Event</th>
+        <th>Status</th>
+        <th>Updated</th>
+    </tr>
+    {% for r in rsvps %}
+    <tr>
+        <td>{{ r.event.title }}</td>
+        <td>{{ r.status }}</td>
+        <td>{{ r.updated_at }}</td>
+    </tr>
+    {% empty %}
+    <tr>
+        <td colspan="3">No RSVP yet.</td>
+    </tr>
+    {% endfor %}
+</table>
+{% endblock %}

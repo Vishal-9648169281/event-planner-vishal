@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h2>RSVP Summary for {{ event.title }}</h2>
+<table class="table">
+    <tr>
+        <th>Going</th>
+        <td>{{ going }}</td>
+    </tr>
+    <tr>
+        <th>Maybe</th>
+        <td>{{ maybe }}</td>
+    </tr>
+    <tr>
+        <th>Decline</th>
+        <td>{{ decline }}</td>
+    </tr>
+</table>
+{% endblock %}

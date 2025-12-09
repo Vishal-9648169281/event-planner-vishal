@@ -25,7 +25,10 @@ SECRET_KEY = 'django-insecure-yk(!^=fnpvcu$en@+-%z7v@f4duz=gar2yl3+en#0$^#!yio9)
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'event-planner-vishal.onrender.com'
+]
+
 
 
 # Application definition

@@ -133,6 +133,5 @@ Deployment Link
 Live application:
 https://event-planner-vishal.onrender.com
 
-Demo Video Link
-
-(Add your video link after recording.)
+## Demo Video Link
+https://drive.google.com/file/d/1XuJs08QDD_YOTFQx1CwkQTWcnc9K9a8S/view?usp=sharing
